@@ -14,7 +14,8 @@ rm -f "$DIST_DIR/$PACKAGE_NAME"
   cd "$EXTENSION_DIR"
   zip -r "$DIST_DIR/$PACKAGE_NAME" . \
     -x '*.DS_Store' \
-    -x '__MACOSX/*'
+    -x '__MACOSX/*' \
+    -x 'icons/LOGO.png'
 )
 
 printf '%s\n' "$DIST_DIR/$PACKAGE_NAME"

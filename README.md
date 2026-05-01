@@ -1,5 +1,9 @@
 # Favorites Sidebar for Google Search
 
+<p>
+  <img src="edge-google-favorites-extension/icons/LOGO.png" alt="Favorites Sidebar for Google Search logo" width="96" height="96">
+</p>
+
 A small Microsoft Edge extension that puts your Edge favorites next to Google Search.
 
 On wide Google Search home pages, the extension shows a compact favorites sidebar on the left and shifts Google Search to the right. On search results pages and smaller windows, it switches to a small launcher button so it does not cover the search UI. New tabs are redirected to `https://www.google.com/`.
