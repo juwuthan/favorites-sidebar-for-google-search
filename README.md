@@ -6,6 +6,10 @@ On wide Google Search home pages, the extension shows a compact favorites sideba
 
 This extension is an independent project and is not affiliated with, endorsed by, sponsored by, or approved by Google LLC, Microsoft Corporation, or the Microsoft Edge team.
 
+## Screenshot
+
+![Favorites Sidebar for Google Search running in Microsoft Edge](00_screenshots/screenshot-edge.png)
+
 ## Features
 
 - Shows favorites from your Edge favorites bar on Google Search.
