@@ -1,0 +1,5 @@
+/git-store/
+dist/
+*.zip
+.DS_Store
+__MACOSX/

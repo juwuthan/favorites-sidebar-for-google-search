@@ -1,0 +1,53 @@
+{
+  "manifest_version": 3,
+  "name": "Favorites Sidebar for Google Search",
+  "version": "1.4.0",
+  "description": "Shows your Edge favorites beside Google Search and opens new tabs on Google.com.",
+  "permissions": ["bookmarks", "favicon"],
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "host_permissions": [
+    "*://www.google.de/*",
+    "*://google.de/*",
+    "*://www.google.com/*",
+    "*://google.com/*"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.google.de/",
+        "*://www.google.de/search*",
+        "*://google.de/",
+        "*://google.de/search*",
+        "*://www.google.com/",
+        "*://www.google.com/search*",
+        "*://google.com/",
+        "*://google.com/search*"
+      ],
+      "js": ["content.js"],
+      "css": ["favorites-bar.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["_favicon/*"],
+      "matches": [
+        "*://www.google.de/*",
+        "*://google.de/*",
+        "*://www.google.com/*",
+        "*://google.com/*"
+      ]
+    }
+  ]
+}
