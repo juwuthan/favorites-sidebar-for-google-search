@@ -12,7 +12,9 @@ This extension is an independent project and is not affiliated with, endorsed by
 
 ## Release Status
 
-The Microsoft Edge Add-ons Store release has been submitted and is currently awaiting approval.
+Favorites Sidebar for Google Search is available in Microsoft Edge Add-ons:
+
+[Install from Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/favorites-sidebar-for-goo/fmagimipbmjoafpegccdgabmggoolfnp)
 
 ## Screenshot
 
@@ -72,7 +74,7 @@ See [LEGAL.md](LEGAL.md).
 
 ## Store Listing
 
-Draft copy for Microsoft Edge Add-ons is in [EDGE_STORE_LISTING.md](EDGE_STORE_LISTING.md).
+Published Microsoft Edge Add-ons listing details are documented in [EDGE_STORE_LISTING.md](EDGE_STORE_LISTING.md).
 
 ## License
 

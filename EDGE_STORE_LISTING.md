@@ -1,8 +1,12 @@
-# Microsoft Edge Add-ons Listing Draft
+# Microsoft Edge Add-ons Listing
 
 ## Title
 
 Favorites Sidebar for Google Search
+
+## Published Listing
+
+https://microsoftedge.microsoft.com/addons/detail/favorites-sidebar-for-goo/fmagimipbmjoafpegccdgabmggoolfnp
 
 ## Short Description
 
